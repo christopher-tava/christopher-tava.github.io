@@ -47,11 +47,6 @@ export const navLinks: TNavLink[] = [
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "resume",
-    title: "Resume",
-    path: "/Tava_Resume_1100.pdf",
-  },
 ];
 
 const services: TService[] = [
