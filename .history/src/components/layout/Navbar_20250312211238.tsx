@@ -71,28 +71,17 @@ const Navbar = () => {
         </Link>
 
         <ul className="hidden list-none flex-row gap-10 sm:flex">
-  {navLinks.map((nav) => (
-    <li
-      key={nav.id}
-      className={`${
-        active === nav.id ? "text-white" : "text-secondary"
-      } cursor-pointer text-[18px] font-medium hover:text-white`}
-    >
-      <a href={`#${nav.id}`}>{nav.title}</a>
-    </li>
-  ))}
-  {/* Add the Resume Download link */}
-  <li className="cursor-pointer text-[18px] font-medium hover:text-white">
-    <a
-      href="/Tava_Resume_1100.pdf"
-      download="Tava_Resume_1100.pdf"
-      className="hover:text-white"
-    >
-      Download Me
-    </a>
-  </li>
-</ul>
-
+          {navLinks.map((nav) => (
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.id ? "text-white" : "text-secondary"
+              } cursor-pointer text-[18px] font-medium hover:text-white`}
+            >
+              <a href={`#${nav.id}`}>{nav.title}</a>
+            </li>
+          ))}
+        </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
           <img
@@ -102,38 +91,27 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-<div
-  className={`${
-    !toggle ? "hidden" : "flex"
-  } black-gradient absolute right-0 top-20 z-10 mx-4 my-2 min-w-[140px] rounded-xl p-6`}
->
-  <ul className="flex flex-1 list-none flex-col items-start justify-end gap-4">
-    {navLinks.map((nav) => (
-      <li
-        key={nav.id}
-        className={`font-poppins cursor-pointer text-[16px] font-medium ${
-          active === nav.id ? "text-white" : "text-secondary"
-        }`}
-        onClick={() => setToggle(!toggle)}
-      >
-        <a href={`#${nav.id}`}>{nav.title}</a>
-      </li>
-    ))}
-    {/* Mobile Resume Link */}
-    <li
-      className="font-poppins cursor-pointer text-[16px] font-medium text-secondary"
-      onClick={() => setToggle(!toggle)}
-    >
-      <a
-        href="/Tava_Resume_1100.pdf"
-        download="Tava_Resume_1100.pdf"
-      >
-        Download Me
-      </a>
-    </li>
-  </ul>
-</div>
-
+          <div
+            className={`${
+              !toggle ? "hidden" : "flex"
+            } black-gradient absolute right-0 top-20 z-10 mx-4 my-2 min-w-[140px] rounded-xl p-6`}
+          >
+            <ul className="flex flex-1 list-none flex-col items-start justify-end gap-4">
+              {navLinks.map((nav) => (
+                <li
+                  key={nav.id}
+                  className={`font-poppins cursor-pointer text-[16px] font-medium ${
+                    active === nav.id ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                  }}
+                >
+                  <a href={`#${nav.id}`}>{nav.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
