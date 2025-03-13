@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "Christopher Tava — 3D Portfolio",
-    fullName: "Christopher Tava",
-    email: "ctava3@gatech.edu",
+    title: "John Doe — 3D Portfolio",
+    fullName: "John Doe",
+    email: "johndoe@mail.com",
   },
   hero: {
-    name: "Christopher Tava",
-    p: ["Electrical Engineering @ Georgia Tech"],
+    name: "John Doe",
+    p: ["I develop 3D visuals, user", "interfaces and web applications"],
   },
   contact: {
     p: "Get in touch",
@@ -66,7 +66,7 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "About Me.",
+      h2: "Overview.",
       content: `I'm a skilled software developer with experience in TypeScript and
       JavaScript, and expertise in frameworks like React, Node.js, and
       Three.js. I'm a quick learner and collaborate closely with clients to
