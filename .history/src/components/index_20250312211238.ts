@@ -20,7 +20,6 @@ export {
   Navbar,
   About,
   Tech,
-  Resume,
   Experience,
   Works,
   Feedbacks,
