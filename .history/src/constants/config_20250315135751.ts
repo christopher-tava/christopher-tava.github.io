@@ -48,7 +48,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Christopher Tava",
-    p: ["electrical engineering @ georgia tech", "based in atlanta + nyc area", "my interests: human-centric design. dsp + ml. circuit design.", "current plans: looking for a summer 2026 internship!"],
+    p: ["Electrical Engineering @ Georgia Tech"],
   },
   contact: {
     p: "Get in touch",
@@ -65,17 +65,23 @@ export const config: TConfig = {
       },
     },
   },
-
   sections: {
     about: {
       p: "Introduction",
       h2: "About Me.",
-      content: `I am passionate about making a difference and helping others.`,
+      content: `1. first-year electrical engineering major @ Georgia Tech\n
+
+                2. based in Atlanta + NYC area\n
+
+                3. my interests: human-centric design. DSP + ML. Circuit design.\n
+
+                4. current plans: looking for a summer 2026 internship!\n
+`,
       link: "Tava_Resume_1100.pdf",
     },
     experience: {
-      p: "What I'm looking to do!",
-      h2: "Career Goals.",
+      p: "What I have done so far",
+      h2: "Work Experience.",
     },
     feedbacks: {
       p: "What others say",
