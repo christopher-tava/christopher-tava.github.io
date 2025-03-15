@@ -1,4 +1,6 @@
+import React from "react";
 import { motion } from "framer-motion";
+import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -6,8 +8,8 @@ const Resume = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className="text-[48px] font-black text-white">MY QUALIFICATIONS</p>
-        <h2 className="text-[18px] tracking-wider text-white">Resume.</h2>
+        <p className={styles.sectionSubText}>MY QUALIFICATIONS</p>
+        <h2 className={styles.sectionHeadText}>Resume.</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

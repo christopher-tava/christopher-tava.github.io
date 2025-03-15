@@ -70,7 +70,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-  <ul className="hidden list-none flex-row gap-10 sm:flex">
+        <ul className="hidden list-none flex-row gap-10 sm:flex">
   {navLinks.map((nav) => (
     <li
       key={nav.id}
@@ -82,14 +82,18 @@ const Navbar = () => {
     </li>
   ))}
   {/* Add the Resume Download link */}
-  <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-  <a href="/Tava_Resume_1100.pdf" download="Tava_Resume_1100.pdf">
-    Download Me
-  </a>
-</li>
+  <li className="cursor-pointer text-[18px] font-medium hover:text-white"
+    
+      href="/Tava_Resume_1100.pdf"
+      download="Tava_Resume_1100.pdf"
+      className="hover:text-white"
+    >
+      Download Me
+    </a>
+  </li>
   {/* Add the Projects Page link */}
-  <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-    <Link to="/projects">
+  <li className="cursor-pointer text-[18px] font-medium hover:text-white">
+    <Link to="/projects" className="text-secondary hover:text-white">
       Projects
     </Link>
   </li>

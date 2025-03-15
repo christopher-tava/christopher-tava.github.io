@@ -1,0 +1,19 @@
+.pdf-container {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pdf-container object {
+    display: block;
+    border: none;
+    background-color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .pdf-container object {
+      height: 400px;
+    }
+  }
