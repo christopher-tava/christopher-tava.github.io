@@ -127,7 +127,7 @@ const experiences: TExperience[] = [
   {
     title: "Get more DSP experience",
     companyName: "Goal #1",
-    icon: "fourier.png",
+    icon: "dsp.png",
     iconBg: "#383E56",
     date: "Initial Step",
     points: [
@@ -140,7 +140,7 @@ const experiences: TExperience[] = [
   {
     title: "Network Hard",
     companyName: "Goal #2",
-    icon: "network.png",
+    icon: "network.jpg",
     iconBg: "#E6DEDD",
     date: "Key Step",
     points: [
@@ -166,7 +166,7 @@ const experiences: TExperience[] = [
   {
     title: "Publish my Work to the World",
     companyName: "Goal #4",
-    icon: "research.png",
+    icon: "research.jpg",
     iconBg: "#E6DEDD",
     date: "Culiminating Step",
     points: [
