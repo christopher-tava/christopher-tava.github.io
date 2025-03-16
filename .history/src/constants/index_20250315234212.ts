@@ -24,6 +24,7 @@ import {
   git,
   figma,
   docker,
+  carrent,
   jobit,
   tripguide,
   threejs,
@@ -167,7 +168,7 @@ const experiences: TExperience[] = [
     companyName: "Goal #4",
     icon: "research.png",
     iconBg: "#E6DEDD",
-    date: "Culminating Step",
+    date: "Culiminating Step",
     points: [
       "Develop and deliver for internships and employers on consistent basis.",
       "Discuss design ideas with others to validate or pivot .",
@@ -223,13 +224,13 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "medtech.png",
-    sourceCodeLink: "https://christopher-tava.github.io/projects/",
+    image: carrent,
+    sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Ultrasound Imaging CVP measurement",
+    name: "Job IT",
     description:
-      "Ongoing research to test hyptothesis that emerging field of ultrasound elastography can accurately measure central venous pressure in a noninvasive manner.",
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -245,12 +246,12 @@ const projects: TProject[] = [
       },
     ],
     image: jobit,
-    sourceCodeLink: "https://christopher-tava.github.io/projects/",
+    sourceCodeLink: "https://github.com/",
   },
   {
-    name: "ECE 1100 Discovery Project",
+    name: "Trip Guide",
     description:
-      "An intro to ECE project where I used a Raspberry Pi 4 to run a speech recognition algorithm.",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
         name: "nextjs",
@@ -266,7 +267,7 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://christopher-tava.github.io/projects/",
+    sourceCodeLink: "https://github.com/",
   },
 ];
 

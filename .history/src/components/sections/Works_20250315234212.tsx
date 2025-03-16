@@ -14,6 +14,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   name,
   description,
   tags,
+  image,
   sourceCodeLink,
 }) => {
   return (

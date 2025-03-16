@@ -14,6 +14,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   name,
   description,
   tags,
+  image,
   sourceCodeLink,
 }) => {
   return (
@@ -28,7 +29,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         <div className="bg-tertiary w-full rounded-2xl p-5 sm:w-[300px]">
           <div className="relative h-[230px] w-full">
             <img
-              src={"medtech.png"}
+              src={image}
               alt={name}
               className="h-full w-full rounded-2xl object-cover"
             />
