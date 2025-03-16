@@ -52,13 +52,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="text-secondary mt-4 max-w-3xl text-[17px] leading-[30px]"
       >
-        {config.sections.about.content[0]} <br className="hidden sm:block" />
-        {config.sections.about.content[1]} <br className="hidden sm:block" />
-        {config.sections.about.content[2]} <br className="hidden sm:block" />
-        {config.sections.about.content[3]} <br className="hidden sm:block" />
-        {config.sections.about.content[4]} <br className="hidden sm:block" />
-        {config.sections.about.content[5]} <br className="hidden sm:block" />
-        {config.sections.about.content[6]} <br className="hidden sm:block" />
+        {config.sections.about.content}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 max-sm:justify-center">
