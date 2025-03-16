@@ -89,9 +89,9 @@ const Navbar = () => {
 </li>
   {/* Add the Projects Page link */}
   <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-  <a href="https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?usp=sharing">
-    Projects
-  </a>
+    <Link to="/projects">
+      Projects
+    </Link>
   </li>
 </ul>
 

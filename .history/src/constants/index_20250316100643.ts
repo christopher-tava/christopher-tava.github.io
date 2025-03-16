@@ -24,6 +24,8 @@ import {
   git,
   figma,
   docker,
+  jobit,
+  tripguide,
   threejs,
 } from "../assets";
 
@@ -208,23 +210,23 @@ const projects: TProject[] = [
   {
     name: "Andromeda - Ethical Hospital Restraint",
     description:
-      "YOLO + OpenCV powered, Bluetooth Serial via ESP32 ethical medical restraint for a hackathon competition. Won first in track and commendation from judges and doctors.",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "OpenCV",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "ESP32",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "C++",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: "medtech.png",
-    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?tab=t.0#bookmark=id.ni5bkq3pdist",
+    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?usp=sharing",
   },
   {
     name: "Ultrasound Imaging CVP measurement",
@@ -232,20 +234,20 @@ const projects: TProject[] = [
       "Ongoing research to test hyptothesis that emerging field of ultrasound elastography can accurately measure central venous pressure in a noninvasive manner.",
     tags: [
       {
-        name: "Signal Processing",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Research Lab",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "Cutting-edge medical tech",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: "us.png",
-    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?tab=t.0#bookmark=kix.a0lku441tbg6",
+    image: jobit,
+    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?usp=sharing",
   },
   {
     name: "ECE 1100 Discovery Project",
@@ -253,11 +255,11 @@ const projects: TProject[] = [
       "An intro to ECE project where I used a Raspberry Pi 4 to run a speech recognition algorithm. Click on the black icon to learn more!",
     tags: [
       {
-        name: "Raspberry Pi",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "Python",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -265,8 +267,8 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "1100.jpg",
-    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?tab=t.0#bookmark=kix.5qqg823vefen",
+    image: tripguide,
+    sourceCodeLink: "https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?usp=sharing",
   },
 ];
 
