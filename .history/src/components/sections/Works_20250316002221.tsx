@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../../hoc";
 import { projects } from "../../constants";
 import { fadeIn } from "../../utils/motion";
-import { config } from "../../constants/config";
+import { config } from "../.ß./constants/config";
 import { Header } from "../atoms/Header";
 import { TProject } from "../../types";
 import { useNavigate } from "react-router-dom";
@@ -15,6 +15,8 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   name,
   description,
   tags,
+  sourceCodeLink,
+
 }) => {
   const navigate = useNavigate()
 

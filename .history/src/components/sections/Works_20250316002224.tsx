@@ -15,6 +15,8 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
   name,
   description,
   tags,
+  sourceCodeLink,
+
 }) => {
   const navigate = useNavigate()
 
