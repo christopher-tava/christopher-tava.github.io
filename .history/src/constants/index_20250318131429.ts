@@ -223,7 +223,7 @@ const projects: TProject[] = [
         color: "pink-text-gradient",
       },
     ],
-    image: "medtech.png",
+    image: "medtech.pßng",
     sourceCodeLink: "https://rb.gy/8v52os",
   },
   {
