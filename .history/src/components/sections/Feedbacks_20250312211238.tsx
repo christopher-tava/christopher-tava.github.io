@@ -30,7 +30,7 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
             <span className="blue-text-gradient">@</span> {name}
           </p>
           <p className="text-secondary mt-1 text-[12px]">
-            {designation}, {company}
+            {designation} of {company}
           </p>
         </div>
 
