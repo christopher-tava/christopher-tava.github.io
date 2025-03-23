@@ -194,6 +194,14 @@ const testimonials: TTestimonial[] = [
     company: "GT Alumna/MentorJackets Mentor",
     image: "amaya.jpg",
   },
+  {
+    testimonial:
+      "[waiting to hear back from ishan]",
+    name: "Ishan Gajjar",
+    designation: "Undergraduate Researcher",
+    company: "ECE @ Rutgers",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
 ];
 
 const projects: TProject[] = [
