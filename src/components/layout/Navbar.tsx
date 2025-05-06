@@ -83,7 +83,7 @@ const Navbar = () => {
   ))}
   {/* Add the Resume Download link */}
   <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-  <a href="/Tava_Resume_1100.pdf" download="Tava_Resume_1100.pdf">
+  <a href="Christopher Tava - Resume.pdf" download="Christopher Tava - Resume.pdf">
     Download My Resume
   </a>
 </li>

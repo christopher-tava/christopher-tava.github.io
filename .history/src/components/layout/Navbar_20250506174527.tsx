@@ -83,13 +83,13 @@ const Navbar = () => {
   ))}
   {/* Add the Resume Download link */}
   <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-  <a href="/Tava_Resume_1100.pdf" download="Tava_Resume_1100.pdf">
+  <a href="Christopher Tava - Resume.pdf" download="Christopher Tava - Resume.pdf">
     Download My Resume
   </a>
 </li>
   {/* Add the Projects Page link */}
   <li className="cursor-pointer text-[18px] font-medium text-secondary hover:text-white">
-  <a href="https://docs.google.com/document/d/1T-9zL5T7oU4ubCKu54AQyTmCsgLC6JZctn7N_osXBsY/edit?usp=sharing">
+  <a href="https://rb.gy/8v52os">
     Projects
   </a>
   </li>
